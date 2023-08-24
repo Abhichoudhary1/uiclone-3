@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(199,27,27,1) 92%);
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+  
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.logo img{
+    
+    height: 80px;
+    width: 80px;
+   
+}
+.login{
+    height: 100px;
+    width: 30%;
+  
+}
+.login ul {
+    height: 100px;
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login ul li{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+}
+.but{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.but button{
+    width: 30%;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px;
+}
+#lg{
+    border: none;
+}
+.main-container{
+    height: 500px;
+    width: 100%;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,2,2,1) 35%, rgba(255,0,9,0.8016456582633054) 98%);
+}
+.visual{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.smart{
+    height: 500px;
+    width: 50%;
+    color: white;
+    padding: 100px;
+}
+.smart P{
+    font-size: 20px;
+    color: gray;
+  
+}
+.smart h1{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.smart button{
+    background: transparent;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.logo-img{
+    height: 500px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.his{
+    font-size: 50px;
+    
+}
+.his img{
+   
+    
+    width: 20%;
+}
+.logo-img  img{
+    
+    height: 400px;
+    width: 400px;
+    
+}
+.hero-section{
+    height: 300px;
+    width: 100%;
+    padding-inline: 50px;
+
+}
+.hero-section p{
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+   
+    font-weight: bolder;
+}
+.hero{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.ancient{
+    height: 250px;
+    width: 30%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,2,2,1) 35%, rgba(255,0,9,0.8016456582633054) 98%);
+    padding: 50px;
+}
+.ancient p{
+    width: 100%;
+    color: red;
+    font-size: 20px;
+    padding-inline: 85px;
+    
+}
+.ancient h4{
+    font-size: 25px;
+    color: white;
+    padding-inline: 85px;
+}
+.ancient img{
+    padding-inline: 85px;
+}
+.any{
+    height: 250px;
+    width: 30%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.any button{
+    font-size: 20px;
+    
+    width: 50%;
+    background: transparent;
+    background-color: orange;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: white;
+}
+.any p{
+    font-size: 20px;
+    
+   
+}
+.new{
+    height: 250px;
+    width: 30%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.new button{
+    font-size: 20px;
+    
+    width: 50%;
+    background: transparent;
+    background-color: skyblue;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: white;
+}
+.new p{
+    font-size: 20px;
+   
+}
+@media (max-width:768px) {
+    .nav-bar{
+        height: auto;
+        width: 100%;
+    }
+    .nav{
+        height: auto;
+        width: 100%;
+    }
+    .login{
+        display: none;
+    }
+    .but{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-container{
+        height: auto;
+        width: 100%;
+       
+    }
+    .visual{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;   
+    }
+    .smart{
+        height: auto;
+        width: 100%;
+    }
+    .smart button{
+        font-size: 25px;
+        width: 100%;
+    }
+    .logo-img{
+        height: auto;
+        width: 100%;
+    }
+    .hero-section{
+        height: auto;
+        width: 100%;
+    }
+    .hero{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ancient{
+        height: auto;
+        width: 100%;
+    }
+  
+    .ancient img{
+      height: 100px;
+      width: 250px;
+    }
+    .any{
+        height: auto;
+        width: 100%;
+        border: none;
+        margin-top: 20px;
+    }
+    .new{
+        height: auto;
+        width: 100%;
+        border: none;
+        margin-top: 20px;
+    }
+}
